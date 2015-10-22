@@ -7,50 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		52AF0D1F1BD970720011CB59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF0D1E1BD970720011CB59 /* AppDelegate.swift */; };
-		52AF0D211BD970720011CB59 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52AF0D201BD970720011CB59 /* GameScene.sks */; };
-		52AF0D231BD970720011CB59 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF0D221BD970720011CB59 /* GameScene.swift */; };
-		52AF0D251BD970720011CB59 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF0D241BD970720011CB59 /* GameViewController.swift */; };
-		52AF0D281BD970720011CB59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AF0D261BD970720011CB59 /* Main.storyboard */; };
-		52AF0D2A1BD970720011CB59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AF0D291BD970720011CB59 /* Assets.xcassets */; };
-		52AF0D2D1BD970720011CB59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AF0D2B1BD970720011CB59 /* LaunchScreen.storyboard */; };
-		52AF0D381BD970720011CB59 /* PhototropeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF0D371BD970720011CB59 /* PhototropeTests.swift */; };
-		52AF0D431BD970720011CB59 /* PhototropeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AF0D421BD970720011CB59 /* PhototropeUITests.swift */; };
+		52AC56721BD97E6A003488AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC56681BD97E6A003488AF /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
+		52AC56731BD97E6A003488AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AC56691BD97E6A003488AF /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
+		52AC56741BD97E6A003488AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC566B1BD97E6A003488AF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
+		52AC56751BD97E6A003488AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC566D1BD97E6A003488AF /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		52AC56761BD97E6A003488AF /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC566F1BD97E6A003488AF /* GameScene.swift */; settings = {ASSET_TAGS = (); }; };
+		52AC567B1BD97F33003488AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC56791BD97F33003488AF /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		52AC567C1BD97F33003488AF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AC567A1BD97F33003488AF /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		52AF0D341BD970720011CB59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52AF0D131BD970720011CB59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52AF0D1A1BD970720011CB59;
-			remoteInfo = Phototrope;
-		};
-		52AF0D3F1BD970720011CB59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 52AF0D131BD970720011CB59 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 52AF0D1A1BD970720011CB59;
-			remoteInfo = Phototrope;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		52AC56671BD97E69003488AF /* Phototrope-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phototrope-Bridging-Header.h"; sourceTree = "<group>"; };
+		52AC56681BD97E6A003488AF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52AC56691BD97E6A003488AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52AC566C1BD97E6A003488AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		52AC566E1BD97E6A003488AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Main.storyboard; sourceTree = "<group>"; };
+		52AC566F1BD97E6A003488AF /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		52AC56711BD97E6A003488AF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52AC56791BD97F33003488AF /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		52AC567A1BD97F33003488AF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		52AF0D1B1BD970720011CB59 /* Phototrope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phototrope.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AF0D1E1BD970720011CB59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		52AF0D201BD970720011CB59 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		52AF0D221BD970720011CB59 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		52AF0D241BD970720011CB59 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		52AF0D271BD970720011CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		52AF0D291BD970720011CB59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		52AF0D2C1BD970720011CB59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		52AF0D2E1BD970720011CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52AF0D331BD970720011CB59 /* PhototropeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhototropeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AF0D371BD970720011CB59 /* PhototropeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhototropeTests.swift; sourceTree = "<group>"; };
-		52AF0D391BD970720011CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52AF0D3E1BD970720011CB59 /* PhototropeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhototropeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		52AF0D421BD970720011CB59 /* PhototropeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhototropeUITests.swift; sourceTree = "<group>"; };
-		52AF0D441BD970720011CB59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,30 +37,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52AF0D301BD970720011CB59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AF0D3B1BD970720011CB59 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52AC566A1BD97E6A003488AF /* Base.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				52AC566B1BD97E6A003488AF /* LaunchScreen.storyboard */,
+				52AC566D1BD97E6A003488AF /* Main.storyboard */,
+			);
+			path = Base.lproj;
+			sourceTree = "<group>";
+		};
 		52AF0D121BD970720011CB59 = {
 			isa = PBXGroup;
 			children = (
-				52AF0D1D1BD970720011CB59 /* Phototrope */,
-				52AF0D361BD970720011CB59 /* PhototropeTests */,
-				52AF0D411BD970720011CB59 /* PhototropeUITests */,
+				52AC56791BD97F33003488AF /* MainViewController.swift */,
+				52AC567A1BD97F33003488AF /* MainViewController.xib */,
+				52AC56681BD97E6A003488AF /* AppDelegate.swift */,
+				52AC56691BD97E6A003488AF /* Assets.xcassets */,
+				52AC566A1BD97E6A003488AF /* Base.lproj */,
+				52AC566F1BD97E6A003488AF /* GameScene.swift */,
+				52AC56711BD97E6A003488AF /* Info.plist */,
 				52AF0D1C1BD970720011CB59 /* Products */,
+				52AC56671BD97E69003488AF /* Phototrope-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -92,43 +68,8 @@
 			isa = PBXGroup;
 			children = (
 				52AF0D1B1BD970720011CB59 /* Phototrope.app */,
-				52AF0D331BD970720011CB59 /* PhototropeTests.xctest */,
-				52AF0D3E1BD970720011CB59 /* PhototropeUITests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		52AF0D1D1BD970720011CB59 /* Phototrope */ = {
-			isa = PBXGroup;
-			children = (
-				52AF0D1E1BD970720011CB59 /* AppDelegate.swift */,
-				52AF0D201BD970720011CB59 /* GameScene.sks */,
-				52AF0D221BD970720011CB59 /* GameScene.swift */,
-				52AF0D241BD970720011CB59 /* GameViewController.swift */,
-				52AF0D261BD970720011CB59 /* Main.storyboard */,
-				52AF0D291BD970720011CB59 /* Assets.xcassets */,
-				52AF0D2B1BD970720011CB59 /* LaunchScreen.storyboard */,
-				52AF0D2E1BD970720011CB59 /* Info.plist */,
-			);
-			path = Phototrope;
-			sourceTree = "<group>";
-		};
-		52AF0D361BD970720011CB59 /* PhototropeTests */ = {
-			isa = PBXGroup;
-			children = (
-				52AF0D371BD970720011CB59 /* PhototropeTests.swift */,
-				52AF0D391BD970720011CB59 /* Info.plist */,
-			);
-			path = PhototropeTests;
-			sourceTree = "<group>";
-		};
-		52AF0D411BD970720011CB59 /* PhototropeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				52AF0D421BD970720011CB59 /* PhototropeUITests.swift */,
-				52AF0D441BD970720011CB59 /* Info.plist */,
-			);
-			path = PhototropeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,61 +92,19 @@
 			productReference = 52AF0D1B1BD970720011CB59 /* Phototrope.app */;
 			productType = "com.apple.product-type.application";
 		};
-		52AF0D321BD970720011CB59 /* PhototropeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52AF0D4A1BD970720011CB59 /* Build configuration list for PBXNativeTarget "PhototropeTests" */;
-			buildPhases = (
-				52AF0D2F1BD970720011CB59 /* Sources */,
-				52AF0D301BD970720011CB59 /* Frameworks */,
-				52AF0D311BD970720011CB59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52AF0D351BD970720011CB59 /* PBXTargetDependency */,
-			);
-			name = PhototropeTests;
-			productName = PhototropeTests;
-			productReference = 52AF0D331BD970720011CB59 /* PhototropeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		52AF0D3D1BD970720011CB59 /* PhototropeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 52AF0D4D1BD970720011CB59 /* Build configuration list for PBXNativeTarget "PhototropeUITests" */;
-			buildPhases = (
-				52AF0D3A1BD970720011CB59 /* Sources */,
-				52AF0D3B1BD970720011CB59 /* Frameworks */,
-				52AF0D3C1BD970720011CB59 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				52AF0D401BD970720011CB59 /* PBXTargetDependency */,
-			);
-			name = PhototropeUITests;
-			productName = PhototropeUITests;
-			productReference = 52AF0D3E1BD970720011CB59 /* PhototropeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
 		52AF0D131BD970720011CB59 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Everyside Innovations, LLC";
 				TargetAttributes = {
 					52AF0D1A1BD970720011CB59 = {
 						CreatedOnToolsVersion = 7.0.1;
-					};
-					52AF0D321BD970720011CB59 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 52AF0D1A1BD970720011CB59;
-					};
-					52AF0D3D1BD970720011CB59 = {
-						CreatedOnToolsVersion = 7.0.1;
-						TestTargetID = 52AF0D1A1BD970720011CB59;
+						DevelopmentTeam = CD5EHLP73Q;
 					};
 				};
 			};
@@ -223,8 +122,6 @@
 			projectRoot = "";
 			targets = (
 				52AF0D1A1BD970720011CB59 /* Phototrope */,
-				52AF0D321BD970720011CB59 /* PhototropeTests */,
-				52AF0D3D1BD970720011CB59 /* PhototropeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,24 +131,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AF0D211BD970720011CB59 /* GameScene.sks in Resources */,
-				52AF0D2D1BD970720011CB59 /* LaunchScreen.storyboard in Resources */,
-				52AF0D2A1BD970720011CB59 /* Assets.xcassets in Resources */,
-				52AF0D281BD970720011CB59 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AF0D311BD970720011CB59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AF0D3C1BD970720011CB59 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				52AC56751BD97E6A003488AF /* Main.storyboard in Resources */,
+				52AC56731BD97E6A003488AF /* Assets.xcassets in Resources */,
+				52AC56741BD97E6A003488AF /* LaunchScreen.storyboard in Resources */,
+				52AC567C1BD97F33003488AF /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,58 +145,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52AF0D231BD970720011CB59 /* GameScene.swift in Sources */,
-				52AF0D251BD970720011CB59 /* GameViewController.swift in Sources */,
-				52AF0D1F1BD970720011CB59 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AF0D2F1BD970720011CB59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52AF0D381BD970720011CB59 /* PhototropeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		52AF0D3A1BD970720011CB59 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				52AF0D431BD970720011CB59 /* PhototropeUITests.swift in Sources */,
+				52AC56761BD97E6A003488AF /* GameScene.swift in Sources */,
+				52AC56721BD97E6A003488AF /* AppDelegate.swift in Sources */,
+				52AC567B1BD97F33003488AF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		52AF0D351BD970720011CB59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52AF0D1A1BD970720011CB59 /* Phototrope */;
-			targetProxy = 52AF0D341BD970720011CB59 /* PBXContainerItemProxy */;
-		};
-		52AF0D401BD970720011CB59 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 52AF0D1A1BD970720011CB59 /* Phototrope */;
-			targetProxy = 52AF0D3F1BD970720011CB59 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		52AF0D261BD970720011CB59 /* Main.storyboard */ = {
+		52AC566B1BD97E6A003488AF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				52AF0D271BD970720011CB59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		52AF0D2B1BD970720011CB59 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52AF0D2C1BD970720011CB59 /* Base */,
+				52AC566C1BD97E6A003488AF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		52AC566D1BD97E6A003488AF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52AC566E1BD97E6A003488AF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -403,72 +257,27 @@
 		52AF0D481BD970720011CB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Phototrope/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.Phototrope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Phototrope-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		52AF0D491BD970720011CB59 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = Phototrope/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.Phototrope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		52AF0D4B1BD970720011CB59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = PhototropeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.PhototropeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phototrope.app/Phototrope";
-			};
-			name = Debug;
-		};
-		52AF0D4C1BD970720011CB59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = PhototropeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.PhototropeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Phototrope.app/Phototrope";
-			};
-			name = Release;
-		};
-		52AF0D4E1BD970720011CB59 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				INFOPLIST_FILE = PhototropeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.PhototropeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Phototrope;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		52AF0D4F1BD970720011CB59 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = PhototropeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.PhototropeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Phototrope;
-				USES_XCTRUNNER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Phototrope-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -491,22 +300,7 @@
 				52AF0D491BD970720011CB59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		52AF0D4A1BD970720011CB59 /* Build configuration list for PBXNativeTarget "PhototropeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52AF0D4B1BD970720011CB59 /* Debug */,
-				52AF0D4C1BD970720011CB59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		52AF0D4D1BD970720011CB59 /* Build configuration list for PBXNativeTarget "PhototropeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				52AF0D4E1BD970720011CB59 /* Debug */,
-				52AF0D4F1BD970720011CB59 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
