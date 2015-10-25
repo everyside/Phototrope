@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:Phototrope-osx/Phototrope-osx.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:mactest/mactest.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Phototrope.xcodeproj">
    </FileRef>
 </Workspace>
