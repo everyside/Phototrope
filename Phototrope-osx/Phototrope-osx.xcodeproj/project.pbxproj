@@ -14,6 +14,8 @@
 		5211B92C1BDD25FD008B9154 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5211B92A1BDD25FD008B9154 /* MainMenu.xib */; };
 		5211B9351BDD2D70008B9154 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5211B9331BDD2D70008B9154 /* CameraViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		5211B9381BDD322E008B9154 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5211B9371BDD322E008B9154 /* Storyboard.storyboard */; settings = {ASSET_TAGS = (); }; };
+		5257484E1BDD4F74002E16CD /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5257484D1BDD4F74002E16CD /* CVWrapper.mm */; settings = {ASSET_TAGS = (); }; };
+		525748521BDD51EE002E16CD /* CV.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 525748501BDD51EE002E16CD /* CV.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,11 @@
 		5211B92D1BDD25FD008B9154 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5211B9331BDD2D70008B9154 /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		5211B9371BDD322E008B9154 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		5257484B1BDD4E3E002E16CD /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVWrapper.h; sourceTree = "<group>"; };
+		5257484C1BDD4F74002E16CD /* Phototrope-osx-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phototrope-osx-Bridging-Header.h"; sourceTree = "<group>"; };
+		5257484D1BDD4F74002E16CD /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CVWrapper.mm; sourceTree = "<group>"; };
+		525748501BDD51EE002E16CD /* CV.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CV.cpp; sourceTree = "<group>"; };
+		525748511BDD51EE002E16CD /* CV.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CV.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +73,11 @@
 				5211B92D1BDD25FD008B9154 /* Info.plist */,
 				5211B9331BDD2D70008B9154 /* CameraViewController.swift */,
 				5211B9371BDD322E008B9154 /* Storyboard.storyboard */,
+				5257484B1BDD4E3E002E16CD /* CVWrapper.h */,
+				5257484D1BDD4F74002E16CD /* CVWrapper.mm */,
+				5257484C1BDD4F74002E16CD /* Phototrope-osx-Bridging-Header.h */,
+				525748501BDD51EE002E16CD /* CV.cpp */,
+				525748511BDD51EE002E16CD /* CV.hpp */,
 			);
 			path = "Phototrope-osx";
 			sourceTree = "<group>";
@@ -96,6 +108,7 @@
 		5211B9171BDD25FD008B9154 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Everyside Innovations, LLC";
 				TargetAttributes = {
@@ -141,6 +154,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				525748521BDD51EE002E16CD /* CV.cpp in Sources */,
+				5257484E1BDD4F74002E16CD /* CVWrapper.mm in Sources */,
 				5211B9251BDD25FD008B9154 /* GameScene.swift in Sources */,
 				5211B9231BDD25FD008B9154 /* AppDelegate.swift in Sources */,
 				5211B9351BDD2D70008B9154 /* CameraViewController.swift in Sources */,
@@ -245,11 +260,32 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Phototrope-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib";
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videostab",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.everyside.Phototrope-osx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Phototrope-osx/Phototrope-osx-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -257,11 +293,31 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				INFOPLIST_FILE = "Phototrope-osx/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				LIBRARY_SEARCH_PATHS = " /usr/local/lib";
+				OTHER_LDFLAGS = (
+					"-lopencv_calib3d",
+					"-lopencv_core",
+					"-lopencv_features2d",
+					"-lopencv_flann",
+					"-lopencv_highgui",
+					"-lopencv_imgproc",
+					"-lopencv_ml",
+					"-lopencv_objdetect",
+					"-lopencv_photo",
+					"-lopencv_stitching",
+					"-lopencv_superres",
+					"-lopencv_ts",
+					"-lopencv_video",
+					"-lopencv_videostab",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.everyside.Phototrope-osx";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Phototrope-osx/Phototrope-osx-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -284,6 +340,7 @@
 				5211B9321BDD25FD008B9154 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

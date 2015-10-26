@@ -52,10 +52,10 @@ class CameraViewController: NSViewController {
                             self.view.layer = self.cameraLayer!
                             self.view.wantsLayer = true
 
-                            let priority = DISPATCH_QUEUE_PRIORITY_HIGH
-                            dispatch_async(dispatch_get_global_queue(priority, 0)) {
+                            //let priority = DISPATCH_QUEUE_PRIORITY_HIGH
+                            //dispatch_async(dispatch_get_global_queue(priority, 0)) {
                                 frontVideoSession.startRunning()
-                            }
+                            //}
 
                         }catch _ {
                             
