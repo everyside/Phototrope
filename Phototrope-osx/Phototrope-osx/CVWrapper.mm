@@ -6,20 +6,27 @@
 //  Copyright (c) 2013 foundry. All rights reserved.
 //
 
-#include <AppKit/AppKit.h>
+#include <UIKit/UIKit.h>
 #import "CVWrapper.h"
-#import "CV.hpp"
 #include <vector>
-#include "opencv2/stitching/stitcher.hpp"
+#include "opencv2/opencv.hpp"
 
+@implementation UIImage (OpenCV)
+
+- (void)findCirclesOfColor:(UIColor*)color{
+
+}
+
+@end
 
 @implementation CVWrapper
 
-+ (NSImage*) processImageWithOpenCV: (NSImage*) inputImage
+
++ (UIImage*) processImageWithOpenCV: (UIImage*) inputImage
 {
     std::vector<int> loc;
     cv::Mat img;
-    detectBlob(img, loc);
+    //detectBlob(img, loc);
     return inputImage;
 }
 

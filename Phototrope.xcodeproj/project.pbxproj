@@ -7,19 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5298D4101BD9E1DC007EF429 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5298D40F1BD9E1DC007EF429 /* Podfile */; settings = {ASSET_TAGS = (); }; };
-		5298D4131BD9E620007EF429 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5298D4121BD9E620007EF429 /* Scene.sks */; settings = {ASSET_TAGS = (); }; };
-		52AC56721BD97E6A003488AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC56681BD97E6A003488AF /* AppDelegate.swift */; settings = {ASSET_TAGS = (); }; };
-		52AC56731BD97E6A003488AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AC56691BD97E6A003488AF /* Assets.xcassets */; settings = {ASSET_TAGS = (); }; };
-		52AC56741BD97E6A003488AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC566B1BD97E6A003488AF /* LaunchScreen.storyboard */; settings = {ASSET_TAGS = (); }; };
-		52AC56751BD97E6A003488AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC566D1BD97E6A003488AF /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
-		52AC56761BD97E6A003488AF /* DotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC566F1BD97E6A003488AF /* DotScene.swift */; settings = {ASSET_TAGS = (); }; };
-		52AC567B1BD97F33003488AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC56791BD97F33003488AF /* MainViewController.swift */; settings = {ASSET_TAGS = (); }; };
-		52AC567C1BD97F33003488AF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AC567A1BD97F33003488AF /* MainViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		52BA2A8D1BD9C83000369200 /* Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52BA2A8B1BD9C83000369200 /* Particle.sks */; settings = {ASSET_TAGS = (); }; };
+		5218E8921BDE7AFB00FD3CD1 /* libjpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5218E8911BDE7AFB00FD3CD1 /* libjpeg.a */; };
+		5218E8981BDE832100FD3CD1 /* CVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5218E8971BDE832100FD3CD1 /* CVWrapper.mm */; };
+		5298D4101BD9E1DC007EF429 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 5298D40F1BD9E1DC007EF429 /* Podfile */; };
+		5298D4131BD9E620007EF429 /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5298D4121BD9E620007EF429 /* Scene.sks */; };
+		52AC56721BD97E6A003488AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC56681BD97E6A003488AF /* AppDelegate.swift */; };
+		52AC56731BD97E6A003488AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52AC56691BD97E6A003488AF /* Assets.xcassets */; };
+		52AC56741BD97E6A003488AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC566B1BD97E6A003488AF /* LaunchScreen.storyboard */; };
+		52AC56751BD97E6A003488AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52AC566D1BD97E6A003488AF /* Main.storyboard */; };
+		52AC56761BD97E6A003488AF /* DotScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC566F1BD97E6A003488AF /* DotScene.swift */; };
+		52AC567B1BD97F33003488AF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52AC56791BD97F33003488AF /* MainViewController.swift */; };
+		52AC567C1BD97F33003488AF /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52AC567A1BD97F33003488AF /* MainViewController.xib */; };
+		52BA2A8D1BD9C83000369200 /* Particle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 52BA2A8B1BD9C83000369200 /* Particle.sks */; };
+		80FCC8729954726E5936CB12 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46BE9A2BB4067E2F6455885C /* Pods.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46BE9A2BB4067E2F6455885C /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5218E8911BDE7AFB00FD3CD1 /* libjpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libjpeg.a; sourceTree = "<group>"; };
+		5218E8961BDE832100FD3CD1 /* CVWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CVWrapper.h; path = "Phototrope-osx/Phototrope-osx/CVWrapper.h"; sourceTree = "<group>"; };
+		5218E8971BDE832100FD3CD1 /* CVWrapper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = CVWrapper.mm; path = "Phototrope-osx/Phototrope-osx/CVWrapper.mm"; sourceTree = "<group>"; };
 		5298D40F1BD9E1DC007EF429 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		5298D4121BD9E620007EF429 /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
 		52AC56671BD97E69003488AF /* Phototrope-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Phototrope-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -33,6 +40,8 @@
 		52AC567A1BD97F33003488AF /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
 		52AF0D1B1BD970720011CB59 /* Phototrope.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Phototrope.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BA2A8B1BD9C83000369200 /* Particle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Particle.sks; sourceTree = "<group>"; };
+		7B8D50343ECEF865D77E7884 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B50AD1DC79DCE1CBFB122492 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +49,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5218E8921BDE7AFB00FD3CD1 /* libjpeg.a in Frameworks */,
+				80FCC8729954726E5936CB12 /* Pods.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +72,8 @@
 		52AF0D121BD970720011CB59 = {
 			isa = PBXGroup;
 			children = (
+				5218E8961BDE832100FD3CD1 /* CVWrapper.h */,
+				5218E8971BDE832100FD3CD1 /* CVWrapper.mm */,
 				5298D4121BD9E620007EF429 /* Scene.sks */,
 				52AC566F1BD97E6A003488AF /* DotScene.swift */,
 				52BA2A8B1BD9C83000369200 /* Particle.sks */,
@@ -70,6 +83,8 @@
 				5298D4111BD9E51E007EF429 /* App */,
 				52AF0D1C1BD970720011CB59 /* Products */,
 				52AC56671BD97E69003488AF /* Phototrope-Bridging-Header.h */,
+				93F9AEDAF5EC891BFCD9C61B /* Pods */,
+				6FF455BCC5203F9C8FDB55DA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +96,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6FF455BCC5203F9C8FDB55DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5218E8911BDE7AFB00FD3CD1 /* libjpeg.a */,
+				46BE9A2BB4067E2F6455885C /* Pods.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93F9AEDAF5EC891BFCD9C61B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B50AD1DC79DCE1CBFB122492 /* Pods.debug.xcconfig */,
+				7B8D50343ECEF865D77E7884 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52AF0D471BD970720011CB59 /* Build configuration list for PBXNativeTarget "Phototrope" */;
 			buildPhases = (
+				709049DB597064B396F4F03B /* Check Pods Manifest.lock */,
 				52AF0D171BD970720011CB59 /* Sources */,
 				52AF0D181BD970720011CB59 /* Frameworks */,
 				52AF0D191BD970720011CB59 /* Resources */,
+				C0D70FD9D6BB36F777F85A05 /* Embed Pods Frameworks */,
+				26CC519B89D8FFC97E0E47D8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,6 +188,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		26CC519B89D8FFC97E0E47D8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		709049DB597064B396F4F03B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D70FD9D6BB36F777F85A05 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		52AF0D171BD970720011CB59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -159,6 +243,7 @@
 			files = (
 				52AC56761BD97E6A003488AF /* DotScene.swift in Sources */,
 				52AC56721BD97E6A003488AF /* AppDelegate.swift in Sources */,
+				5218E8981BDE832100FD3CD1 /* CVWrapper.mm in Sources */,
 				52AC567B1BD97F33003488AF /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +355,17 @@
 		};
 		52AF0D481BD970720011CB59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B50AD1DC79DCE1CBFB122492 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.Phototrope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Phototrope-Bridging-Header.h";
@@ -284,11 +375,17 @@
 		};
 		52AF0D491BD970720011CB59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B8D50343ECEF865D77E7884 /* Pods.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.everyside.Phototrope;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "Phototrope-Bridging-Header.h";

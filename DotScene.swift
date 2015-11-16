@@ -12,6 +12,18 @@ class DotScene: SKScene {
 
     let dot = SKShapeNode(circleOfRadius: 10.0)
 
+    override init(){
+        super.init()
+    }
+
+    override init(size: CGSize) {
+        super.init(size:size)
+    }
+
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+
     override func didMoveToView(view: SKView) {
 
         let emitter = SKEmitterNode(fileNamed:"Particle.sks")!

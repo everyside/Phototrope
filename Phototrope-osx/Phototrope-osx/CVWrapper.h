@@ -7,8 +7,17 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+
+@interface UIImage (OpenCV)
+
+- (void)findCirclesOfColor:(UIColor*)color;
+
+@end
 
 @interface CVWrapper : NSObject
+
+
 
 
 @end

@@ -1,4 +1,9 @@
-# Uncomment this line to define a global platform for your project
-platform :ios, '9.0'
+workspace "Phototrope"
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+platform :ios, "9.0"
+inhibit_all_warnings!
+
+
 
 pod 'OpenCV'
